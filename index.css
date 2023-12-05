@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100vw;
+  min-height: 100vh;
+  background: #fff;
+  font-family: "Rubik" sans-serif;
+}
+
+main {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background: #fafafa;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.purplebackground {
+  width: 510px;
+  height: 1018px;
+  border-radius: 255px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  margin-left: -490px;
+  margin-top: -509px;
+  position: absolute;
+}
+
+.mobile {
+  width: 247px;
+  height: 505px;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.25);
+  position: relative;
+  margin-top: 64px;
+  margin-left: 15px;
+  display: flex;
+  padding: 9.5px 11px;
+  flex-direction: column;
+}
+
+.borderpic {
+  position: absolute;
+  width: 129px;
+  height: 29px;
+  border-radius: 0px 0px 14px 14px;
+  background: #f5f3f7;
+  top: 0px;
+  left: 62px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px 20px 6px 6px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  box-shadow: 0px 0px 13px 0px rgba(62, 39, 83, 0.25);
+  width: 228px;
+  height: 66px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headpic {
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.pic1 {
+  width: 4px;
+  height: 10px;
+}
+
+.pic2 {
+  width: 24px;
+  height: 24px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  margin-left: -70px;
+  margin-top: 10px;
+}
+
+.right {
+  margin-right: 16px;
+  margin-top: 10px;
+}
+
+.name {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.status {
+  color: #d99eff;
+  font-family: "Rubik", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+}
+.background {
+  width: 228px;
+  height: 417px;
+  border-radius: 20px;
+  background: #f5f3f7;
+  border: none;
+}
+
+.conteiner1 {
+  padding: 11px 0 0 7.5px;
+}
+
+.smstext1 {
+  width: 128px;
+  height: 34px;
+  border-radius: 10px 10px 4px 10px;
+  background: #eee5f4;
+  color: #9341c8;
+  font-family: "Rubik", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  padding: 6px 8px;
+}
+
+.smstext2 {
+  margin-top: 8px;
+  width: 128px;
+  height: 34px;
+  border-radius: 10px 10px 4px 10px;
+  background: #eee5f4;
+  color: #9341c8;
+  font-family: "Rubik", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  padding: 6px 8px;
+}
+
+.conteiner2 {
+  margin-top: 16px;
+  margin-right: 7.5px;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.smstext3 {
+  width: 128px;
+  height: 34px;
+  border-radius: 10px 10px 4px 10px;
+  background: #fff;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+  color: #6e5d7e;
+  font-family: "Rubik", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  padding: 6px 8px;
+}
+
+.smstext4 {
+  width: 80px;
+  height: 23px;
+  border-radius: 10px 10px 4px 10px;
+  background: #fff;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+  color: #6e5d7e;
+  font-family: "Rubik", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  padding: 6px 8px;
+}
+
+.conteiner3 {
+  margin-top: 16px;
+  margin-left: 7.5px;
+}
+
+.smstext5 {
+  width: 128px;
+  height: 45px;
+  border-radius: 10px 10px 4px 10px;
+  background: #eee5f4;
+  color: #9341c8;
+  font-family: "Rubik", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  padding: 6px 8px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  height: 32px;
+  border-radius: 10px 10px 4px 10px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+  margin-top: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.oval {
+  width: 12px;
+  height: 12px;
+  stroke-width: 1px;
+  stroke: #e472ff;
+  margin-left: 8px;
+}
+
+.paragrap {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11px;
+  margin-left: 8px;
+}
+
+.number {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 11px;
+  margin-left: 35px;
+}
+
+.one {
+  margin-left: 50px;
+}
+
+.conteiner4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.inputfield {
+  width: 213px;
+  height: 33.909px;
+  border-radius: 16.954px;
+  background: #fff;
+  border: none;
+  color: #c5c9cc;
+  font-family: "Rubik", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: -0.07px;
+  padding: 19px 13px;
+}
+
+.pic3 {
+  position: absolute;
+  align-self: center;
+  right: 20px;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+.titletext {
+  color: #3e2753;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.paragrap1 {
+  color: #a39da9;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 24px;
+  padding: 0 32px 64px 32px;
+}
+
+.backgroundimage {
+  width: 510px;
+  height: 675px;
+  border-radius: 255px;
+  opacity: 0.03;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  position: absolute;
+  left: 190px;
+  top: 400px;
+}
+
+@media (min-width: 1440px) {
+  .purplebackground {
+    margin-left: -1050px;
+    margin-top: -318px;
+  }
+
+  .mobile {
+    margin-top: 148px;
+    margin-left: -416px;
+  }
+
+  .title {
+    display: block;
+    position: relative;
+    bottom: 415px;
+    width: 445px;
+    height: 183px;
+    left: 270px;
+  }
+  .titletext {
+    text-align: left;
+  }
+
+  .paragrap1 {
+    text-align: left;
+    padding: 0;
+  }
+
+  .backgroundimage {
+    left: 1153px;
+    height: 1018px;
+    top: 119px;
+  }
+
+  main {
+    overflow-x: hidden;
+  }
+}
